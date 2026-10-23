@@ -127,7 +127,13 @@
 #align(center, block[
 	= Задание 2
 ])
+#let codeblock = read("../Задание 2/include/primes_utils.h")
+#raw(codeblock, block: true, lang: "c++")
+#let codeblock = read("../Задание 2/src/primes_utils.cpp")
+#raw(codeblock, block: true, lang: "c++")
 #let codeblock = read("../Задание 2/src/main.cpp")
 #raw(codeblock, block: true, lang: "c++")
-#let printblock = read("../Задание 2/assets/main.txt")
+#let printblock = read("../Задание 2/assets/main-1.txt")
+#raw(printblock, block: true)
+#let printblock = read("../Задание 2/assets/main-2.txt")
 #raw(printblock, block: true)
