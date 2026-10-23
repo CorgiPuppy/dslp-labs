@@ -1,0 +1,2 @@
+Enter your number: 50
+Number 50 isn't a primer.

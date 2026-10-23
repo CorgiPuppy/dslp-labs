@@ -1,0 +1,2 @@
+Enter your number: 53
+Number 53 is a primer.
