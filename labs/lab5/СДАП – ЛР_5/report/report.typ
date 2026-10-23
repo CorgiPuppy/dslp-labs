@@ -1,3 +1,5 @@
+#import "@preview/muchpdf:0.1.2": muchpdf
+
 #set page(
 	paper: "a4",
 	margin: (x: 0.8cm, y: 1.5cm)
@@ -120,8 +122,24 @@
 #align(center, block[
 	== Решение теста
 ])
+#let data = read("../Задание 2/Задание2_ЗолотухинАндрей_ЗOМ34-ПВШ2616.pdf", encoding: none)
+#figure(
+	grid(
+		columns: 2,
+		muchpdf(data, pages: 0),
+		muchpdf(data, pages: 1),
+		muchpdf(data, pages: 2, width: 7cm),
+	)
+)
+
+#pagebreak()
 
 #align(center, block[
 	= Задание 3
 ])
-
+#let codeblock = read("../Задание 3/src/main.cpp")
+#raw(codeblock, block: true, lang: "c++")
+#let printblock = read("../Задание 3/assets/main-1.txt")
+#raw(printblock, block: true)
+#let printblock = read("../Задание 3/assets/main-2.txt")
+#raw(printblock, block: true)
