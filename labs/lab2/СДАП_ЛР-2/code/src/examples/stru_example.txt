@@ -1,0 +1,5 @@
+ Point p1:  x = 1, y = 5
+ Point p2 (2.5, 1.5)
+ distance(p1,p2)= 3.80789
+ norm(p1)=5.09902
+

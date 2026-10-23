@@ -1,0 +1,23 @@
+ 2D array (matrix) 4x4:
+ 0 1 2 3
+ 1 2 3 4
+ 2 3 4 5
+ 3 4 5 6
+ Elements of the main diagonal:
+ 0
+   2
+     4
+       6
+ Elements of secondary diagonal:
+       3
+     3
+   3
+ 3
+ Vector-row of arr[2][j] (j=0,1,2,3):
+ 2 3 4 5
+ Vector-column of arr[i][1] (i=0,1,2,3):
+ 1
+ 2
+ 3
+ 4
+
