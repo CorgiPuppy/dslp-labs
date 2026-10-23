@@ -113,8 +113,6 @@
 )
 #let codeblock = read("../Задание 1/src/gen_primes.cpp")
 #raw(codeblock, block: true, lang: "c++")
-#let printblock = read("../Задание 1/assets/gen_primes.txt")
-#raw(printblock, block: true)
 #let codeblock = read("../Задание 1/src/tab_primes1.cpp")
 #raw(codeblock, block: true, lang: "c++")
 #let printblock = read("../Задание 1/assets/tab_primes1.txt")
