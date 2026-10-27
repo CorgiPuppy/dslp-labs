@@ -100,26 +100,35 @@
 #align(center, block[
 	== Ознакомление с примерами из лекции
 ])
-#let codeblock = read("../Задание 1/src/check_prime.cpp")
+#let codeblock = read("../Задание 1/src/pairArray.cpp")
 #raw(codeblock, block: true, lang: "c++")
-#let printblock = read("../Задание 1/assets/check_prime-1.txt")
-#raw(printblock, block: true)
-#let printblock = read("../Задание 1/assets/check_prime-2.txt")
+#let printblock = read("../Задание 1/assets/pairArray.txt")
 #raw(printblock, block: true)
 #figure(
-	image("../Задание 1/assets/check_prime.png"),
-	caption: [Авторская иллюстрация программы check_prime.cpp],
+	image("../Задание 1/assets/pairArray-1.png"),
+	caption: [Авторская иллюстрация программы pairArray.cpp],
 	supplement: [Рис.],
 )
-#let codeblock = read("../Задание 1/src/gen_primes.cpp")
+#figure(
+	image("../Задание 1/assets/pairArray-2.png"),
+	caption: [Авторская иллюстрация программы pairArray.cpp (продолжение)],
+	supplement: [Рис.],
+)
+#let codeblock = read("../Задание 1/src/pairCompare.cpp")
 #raw(codeblock, block: true, lang: "c++")
-#let codeblock = read("../Задание 1/src/tab_primes1.cpp")
-#raw(codeblock, block: true, lang: "c++")
-#let printblock = read("../Задание 1/assets/tab_primes1.txt")
+#let printblock = read("../Задание 1/assets/pairCompare.txt")
 #raw(printblock, block: true)
-#let codeblock = read("../Задание 1/src/tab_primes2.cpp")
+#let codeblock = read("../Задание 1/src/pairSTL.cpp")
 #raw(codeblock, block: true, lang: "c++")
-#let printblock = read("../Задание 1/assets/tab_primes2.txt")
+#let printblock = read("../Задание 1/assets/pairSTL.txt")
+#raw(printblock, block: true)
+#let codeblock = read("../Задание 1/src/testSet1.cpp")
+#raw(codeblock, block: true, lang: "c++")
+#let printblock = read("../Задание 1/assets/testSet1.txt")
+#raw(printblock, block: true)
+#let codeblock = read("../Задание 1/src/testSet2.cpp")
+#raw(codeblock, block: true, lang: "c++")
+#let printblock = read("../Задание 1/assets/testSet2.txt")
 #raw(printblock, block: true)
 
 #pagebreak()
@@ -127,13 +136,7 @@
 #align(center, block[
 	= Задание 2
 ])
-#let codeblock = read("../Задание 2/include/primes_utils.h")
-#raw(codeblock, block: true, lang: "c++")
-#let codeblock = read("../Задание 2/src/primes_utils.cpp")
-#raw(codeblock, block: true, lang: "c++")
 #let codeblock = read("../Задание 2/src/main.cpp")
 #raw(codeblock, block: true, lang: "c++")
-#let printblock = read("../Задание 2/assets/main-1.txt")
-#raw(printblock, block: true)
-#let printblock = read("../Задание 2/assets/main-2.txt")
+#let printblock = read("../Задание 2/assets/main.txt")
 #raw(printblock, block: true)
