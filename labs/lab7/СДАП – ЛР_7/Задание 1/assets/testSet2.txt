@@ -1,0 +1,7 @@
+Input sets:
+ 	S = 10 20 30 
+ 	T = 20 30 40 50 
+Intesection sets S and T:
+ 	S * T = 20 30 
+Union sets S and T:
+ 	S + T = 10 20 30 40 50 

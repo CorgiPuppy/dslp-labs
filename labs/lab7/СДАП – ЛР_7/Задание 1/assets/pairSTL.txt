@@ -1,0 +1,23 @@
+Pair g1 = (Site, 1)
+
+Pair g2 = (.com, 2)
+
+Pair g3 = (Quiz, 3).
+	This pair was created as a copy of the g2 pair.
+
+Pair g2 = (.com, 2).
+	The value of this pair has been changed since initialization.
+
+Pair g4 = (5, 10).
+	Sum of key and value pair g4 =15.
+
+Let's find the concatenation of the symbolic keys of the pairs g1, g2 и g3:
+SiteQuiz.com
+
+You can change pairs, but their type must be the same:
+	Before the exchange of pairs:
+		g1 = (Site, 1)
+ 		g2 = (.com, 2)
+	After the exchange:
+		g1 = (.com, 2)
+		g2 = (Site, 1)

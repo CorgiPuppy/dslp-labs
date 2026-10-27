@@ -1,0 +1,9 @@
+Pair pair1 = (1, 12)
+Pair pair2 = (9, 12)
+
+Comparison (pair1 == pair2) returns 0
+Comparison (pair1 != pair2) returns 1
+Comparison (pair1 >= pair2) returns 0
+Comparison (pair1 <= pair2) returns 1
+Comparison (pair1 > pair2) returns 0
+Comparison (pair1 < pair2) returns 1
