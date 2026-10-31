@@ -163,7 +163,3 @@
 #raw(codeblock, block: true, lang: "c++")
 #let printblock = read("../Задание 3/assets/main.txt")
 #raw(printblock, block: true)
-#let printblock = read("../Задание 3/assets/main.txt")
-#raw(printblock, block: true)
-#let printblock = read("../Задание 3/assets/main.txt")
-#raw(printblock, block: true)
