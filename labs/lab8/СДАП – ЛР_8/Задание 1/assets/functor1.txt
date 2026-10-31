@@ -1,0 +1,2 @@
+Input array: 1 2 3 4 5 
+Transform array by functor: 2 3 4 5 6 
