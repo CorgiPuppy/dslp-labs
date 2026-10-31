@@ -109,20 +109,28 @@
 #raw(codeblock, block: true, lang: "c++")
 #let printblock = read("../Задание 1/assets/functor2.txt")
 #raw(printblock, block: true)
-#let count = 0
-#while count < 2 {
-	#figure(
-		image("../Задание 1/assets/functor1-"count".png"),
-		caption: [Авторская иллюстрация программы functor1.cpp],
-		supplement: [Рис.],
-	)
-	count += 1
-}
-
 #let codeblock = read("../Задание 1/src/prlambda1.cpp")
 #raw(codeblock, block: true, lang: "c++")
 #let printblock = read("../Задание 1/assets/prlambda1.txt")
 #raw(printblock, block: true)
+
+#let count = 1
+#while count <= 2 {
+	let caption-text = if count > 1 {
+		[Авторская иллюстрация программы prlambda1.cpp (продолжение)]
+	} else {
+		[Авторская иллюстрация программы prlambda1.cpp]
+	}
+
+	figure(
+		image("../Задание 1/assets/prlambda1-" + str(count) + ".png"),
+		caption: caption-text,
+		supplement: [Рис.],
+	)
+
+	count += 1
+}
+
 #let codeblock = read("../Задание 1/src/prlambda2.cpp")
 #raw(codeblock, block: true, lang: "c++")
 #let printblock = read("../Задание 1/assets/prlambda2.txt")
@@ -136,7 +144,7 @@
 #align(center, block[
 	== Решение теста
 ])
-#let data = read("../Задание 2/Задание2_ЗолотухинАндрей_ЗOМ34-ПВШ2616.pdf", encoding: none)
+#let data = read("../Задание 2/Задание2_ЗолотухинАндрей_ЗОМ34-ПВШ2616.pdf", encoding: none)
 #figure(
 	grid(
 		columns: 2,
