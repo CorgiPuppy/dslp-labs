@@ -21,7 +21,7 @@ int main() {
 	int n = sizeof(arr)/sizeof(arr[0]); // размер массива
 	std::cout << "Input array: ";
 	for (int i = 0; i < n; i++)
-			 std::cout << arr[i] << " ";
+		std::cout << arr[i] << " ";
 	std::cout << "\n";
 
 	//Применяем приращение ко всем элементам
