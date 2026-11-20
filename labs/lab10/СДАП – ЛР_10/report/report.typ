@@ -98,33 +98,25 @@
 	= Задание 1
 ])
 #align(center, block[
-	== Ознакомление с примерами из лекции
+	== Ознакомление с примером из лекции
 ])
-/*
-#let codeblock = read("../Задание 1/src/functor1.cpp")
+#let codeblock = read("../Задание 1/src/graph.cpp")
 #raw(codeblock, block: true, lang: "c++")
-#let printblock = read("../Задание 1/assets/functor1.txt")
+#let printblock = read("../Задание 1/assets/graph2.txt")
 #raw(printblock, block: true)
-
-#let codeblock = read("../Задание 1/src/functor2.cpp")
-#raw(codeblock, block: true, lang: "c++")
-#let printblock = read("../Задание 1/assets/functor2.txt")
-#raw(printblock, block: true)
-#let codeblock = read("../Задание 1/src/prlambda1.cpp")
-#raw(codeblock, block: true, lang: "c++")
-#let printblock = read("../Задание 1/assets/prlambda1.txt")
+#let printblock = read("../Задание 1/assets/graph2-report.txt")
 #raw(printblock, block: true)
 
 #let count = 1
 #while count <= 2 {
 	let caption-text = if count > 1 {
-		[Авторская иллюстрация программы prlambda1.cpp (продолжение)]
+		[Авторская иллюстрация программы graph.cpp (продолжение)]
 	} else {
-		[Авторская иллюстрация программы prlambda1.cpp]
+		[Авторская иллюстрация программы graph.cpp]
 	}
 
 	figure(
-		image("../Задание 1/assets/prlambda1-" + str(count) + ".png"),
+		image("../Задание 1/assets/graph2-" + str(count) + ".png"),
 		caption: caption-text,
 		supplement: [Рис.],
 	)
@@ -132,14 +124,8 @@
 	count += 1
 }
 
-#let codeblock = read("../Задание 1/src/prlambda2.cpp")
-#raw(codeblock, block: true, lang: "c++")
-#let printblock = read("../Задание 1/assets/prlambda2.txt")
-#raw(printblock, block: true)
-
 #pagebreak()
 
-*/
 #align(center, block[
 	= Задание 2
 ])
