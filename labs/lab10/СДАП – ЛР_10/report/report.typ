@@ -100,6 +100,7 @@
 #align(center, block[
 	== Ознакомление с примерами из лекции
 ])
+/*
 #let codeblock = read("../Задание 1/src/functor1.cpp")
 #raw(codeblock, block: true, lang: "c++")
 #let printblock = read("../Задание 1/assets/functor1.txt")
@@ -138,10 +139,14 @@
 
 #pagebreak()
 
+*/
 #align(center, block[
 	= Задание 2
 ])
-#let codeblock = read("../Задание 3/src/main.cpp")
-#raw(codeblock, block: true, lang: "c++")
-#let printblock = read("../Задание 3/assets/main.txt")
-#raw(printblock, block: true)
+#let codeblock = read("../Задание 2/src/digraphs.py")
+#raw(codeblock, block: true, lang: "python")
+#figure(
+		image("../Задание 2/assets/digraphs.png"),
+		caption: [Авторское создание графа, используя программу #emph[digraphs.py] и #emph[NetworkX]],
+		supplement: [Рис.],
+	)
