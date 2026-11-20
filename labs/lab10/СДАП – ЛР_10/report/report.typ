@@ -129,10 +129,44 @@
 #align(center, block[
 	= Задание 2
 ])
+#align(center, block[
+	== Задание 2-1
+])
+#let codeblock = read("../Задание 2/src/main.cpp")
+#raw(codeblock, block: true, lang: "c++")
+#let codeblock = read("../Задание 2/src/graphs.py")
+#raw(codeblock, block: true, lang: "python")
+#align(center, block[
+	=== Задание 2-1a-2a
+])
+#let printblock = read("../Задание 2/assets/graph_0-15.txt")
+#raw(printblock, block: true)
+#let printblock = read("../Задание 2/assets/main_0-15.txt")
+#raw(printblock, block: true)
+#figure(
+	image("../Задание 2/assets/graph_0-15.png"),
+	caption: [Авторское создание графа, используя программу #emph[graphs.py] и #emph[NetworkX]],
+	supplement: [Рис.],
+)
+#align(center, block[
+	=== Задание 2-1b-2b
+])
+#let printblock = read("../Задание 2/assets/graph_0-7.txt")
+#raw(printblock, block: true)
+#let printblock = read("../Задание 2/assets/main_0-7.txt")
+#raw(printblock, block: true)
+#figure(
+	image("../Задание 2/assets/graph_0-7.png"),
+	caption: [Авторское создание графа, используя программу #emph[graphs.py] и #emph[NetworkX]],
+	supplement: [Рис.],
+)
+#align(center, block[
+	== Задание 2-3
+])
 #let codeblock = read("../Задание 2/src/digraphs.py")
 #raw(codeblock, block: true, lang: "python")
 #figure(
-		image("../Задание 2/assets/digraphs.png"),
-		caption: [Авторское создание графа, используя программу #emph[digraphs.py] и #emph[NetworkX]],
-		supplement: [Рис.],
-	)
+	image("../Задание 2/assets/digraphs.png"),
+	caption: [Авторское создание графа, используя программу #emph[digraphs.py] и #emph[NetworkX]],
+	supplement: [Рис.],
+)
