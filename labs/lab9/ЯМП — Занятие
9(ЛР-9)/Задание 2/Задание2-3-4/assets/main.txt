@@ -1,0 +1,10 @@
+=== Тест класса multiplier ===
+Состояние св-ва объекта умножитель:
+mult acc value = 1
+mult acc value = 5
+mult acc value = 50
+mult acc value = 5000
+
+=== Вычисление суммы S = sum_{k=1..n} k*(k+1) / 2^k ===
+Введите n: 50
+Результат вычисления суммы S: acc value = 8
