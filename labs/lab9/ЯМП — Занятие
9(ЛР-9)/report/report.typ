@@ -116,11 +116,47 @@
 #align(center, block[
 	== Задание 2-1
 ])
+#align(center, block[
+	=== Презентация
+])
+#let data = read("../Задание 2/Задание2-1/Задание2-1_ЗолотухинАндрей_ЗОМ34-ПВШ2616.pdf", encoding: none)
+#figure(
+	grid(
+		columns: 2,
+		gutter: 3pt,
+		muchpdf(data, pages: 0, width: 10cm),
+		muchpdf(data, pages: 1, width: 10cm),
+		muchpdf(data, pages: 2, width: 10cm),
+		muchpdf(data, pages: 3, width: 10cm),
+		muchpdf(data, pages: 4, width: 10cm),
+		muchpdf(data, pages: 5, width: 10cm),
+		muchpdf(data, pages: 6, width: 10cm),
+	)
+)
+
+#pagebreak()
 
 #align(center, block[
 	== Задание 2-2
 ])
+#align(center, block[
+	=== Решение теста
+])
+#let data = read("../Задание 2/Задание2-2/Задание2-2_ЗолотухинАндрей_ЗОМ34-ПВШ2616.pdf", encoding: none)
+#figure(
+	grid(
+		columns: 2,
+		muchpdf(data, pages: 0),
+		muchpdf(data, pages: 1),
+		muchpdf(data, pages: 2, width: 7cm),
+	)
+)
+#pagebreak()
 
 #align(center, block[
 	== Задание 2-3-4
 ])
+#let codeblock = read("../Задание 2/Задание2-3-4/src/main.cpp")
+#raw(codeblock, block: true, lang: "c++")
+#let printblock = read("../Задание 2/Задание2-3-4/assets/main.txt")
+#raw(printblock, block: true)
